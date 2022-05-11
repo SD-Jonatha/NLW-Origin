@@ -32,7 +32,7 @@ function activateMenuAtCurrentSection(section){
   // verificar se a base está abaixo da linha alvo
   //quais dados vou precisar?
 
-  // a seçao termina onde ?
+  // a seçao termina onde   ?
   const sectionEndsAt = sectionTop + sectionHeight + 300
 
 
