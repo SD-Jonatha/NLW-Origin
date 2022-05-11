@@ -6,7 +6,7 @@
 
 
 :root {
-  --hue: 190;
+  --hue: 298;
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -123,6 +123,8 @@ section .content p {
 #home {
   padding-block: 0;
   padding-top: calc(4.1rem + var(--nav-height));
+ 
+ 
 
 }
 
@@ -347,7 +349,7 @@ body.menu-expanded button path {
 #services .card {
   padding: 2.4rem;
   text-align: left;
-  background: var(--brand-beige);
+  background: var(--brand-light-2);
 
   border-radius:  1px solid var(--brand-light);
   border-radius: .6rem;
@@ -494,8 +496,8 @@ footer .social-links {
     padding-block: 16rem;
   }
 
-  section h2 {
-    font-size: 4.2rem;
+  section header h2 {
+    font-size: 4rem;
     line-height: 5.2rem;
   }
 
@@ -706,4 +708,37 @@ footer .social-links {
    margin-bottom: a;
  }
 
+
+ /*=====CONTACT========*/
+#contact  .wrapper {
+  grid-template-columns: 1fr 57.5rem;
+  grid-template-areas: 'A B'
+}
+
+#contact h2 {
+  width: 40.4rem;
+}
+
+/*=========FOOTER============*/
+footer {
+  padding-block: 8rem;
+}
+
+footer .wrapper {
+  grid-template-columns:1fr 1fr;
+  grid-template-areas: 'A B'
+}
+
+footer .col-a {
+  align-self: center;
+}
+
+footer .col-b {
+  align-self: center;
+  justify-self: flex-end;
+}
+
+footer p {
+  margin-bottom: 0;
+}
 }
